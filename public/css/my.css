@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300;1,600&display=swap');
+*{
+	margin:  0px;
+	padding: 0px;
+}
+body{
+	font-family: 'open Sans', sans-serif;
+	font-size: 14px;
+	color: #111;
+	line-height: 1.15;
+	background-color:  rgba(223, 228, 234,0.8);
+}
+.col-lg-2dot4{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+
+
+/* Css của ol menu */
+.container .breadcrumb{
+	padding: 20;
+	background: none;
+	padding: 9px;
+	border-bottom: 1px solid black;
+}
+.container .breadcrumb a{
+	text-decoration: none;
+}
+/* Css phantrang */
+.phantrang{
+	display: flex;
+	justify-content: center;
+}
+
+
+/* CSS ADS */
+.ads{
+	display: flex;
+	justify-content: center; /* ra giua 0x*/
+	align-items: center;  /* ragiua oy */
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 500px;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+
+/* css detailchapter*/
+@media only screen and (max-width: 770px) {
+	.ads{
+		display: none;
+	}
+}
+.detail-anh{
+	margin: 0;
+	padding: 0;
+	
+}
+.detail-anh a{
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.detail-anh a img{
+	width: 100%;
+	height:400px;
+
+	box-sizing: border-box;
+	padding: 1px;
+
+
+}
+.detail-anh a span{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-color: rgba(68, 96, 132, 0.8);
+	color: #fff;
+	padding: 10px 0px;
+	position: absolute;
+	bottom: -50px;
+	width: 100%;
+	transition: 1s ease-in-out;
+
+}
+.detail-anh a:hover span{
+	bottom: 30px;
+}
+.detail-info{
+	margin: 0;
+	padding-top: 1rem ;
+}
+.detail-info a{
+	text-decoration: none;
+	color: black;
+}
+.detail-info a.detail-info-name{
+	font-size: 115%;
+	text-decoration: underline;
+	font-weight: 600;
+}
+.detail-info a.detail-info-theloai:hover{
+	color: blue;
+	}.detail-info p.detail-info-view ion-icon{
+		color: rgba(9, 132, 227,0.6);
+	}
+	.detail-info #select-chapter{
+		font-size: 14px;
+	}
+	.detail-info #select-chapter option.ten-chap{
+		font-size: 12px;
+		line-height: 1.3px;
+	}
+	.detail-info .btn{
+		width: 50%;
+	}
+	.detail-mucluc{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		
+	}
+	.detail-mucluc .noidung-mucluc{
+		min-height: 400px;
+	}
+	.detail-mucluc ol li a{
+		font-size:  14px;
+		line-height: 1.5;
+		text-decoration: none;
+	}
+	.doc-chapter .noidung {
+		text-shadow: 0 0 5px gold, 0 0 7px #0000FF;
+		text-align: center;
+	}
+
+
+
+
+/* Doc chap ter */
+.doc-chapter .noidung{
+	margin-top: 2rem;
+}
+.doc-chapter .content .tieude-content{
+	padding: 10px 3rem;
+	font-size: 16px;
+	color:rgba(27, 20, 100,1.0);
+
+}
+.doc-chapter .content .noidung-content p{
+	margin: 0;
+	line-height: 1.5;
+}
+.doc-chapter .content .backandnext{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* NAv-tab */
+
+
+.nav-tas{
+ background-color: rgba(178, 190, 195,0.8);
+ margin:0 auto;
+ box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+ padding-top: 10px;
+}
+.nav-tas ul{
+ padding: 0px;
+}
+.nav-tas ul li{
+  display: flex;
+  padding-bottom: 5px;
+}
+.nav-tas ul li a{
+  text-decoration: none;
+  font-size: 90%;
+}
+
+.nav-tas ul li .anhtruyen{
+  flex: 0 0 30%;
+  padding-right: 10px;
+}
+.nav-tas ul li .anhtruyen img{
+  width: 100%;
+  height: 5rem;
+}
+.nav-tas ul li .info{
+  padding: 1rem 0;
+}
+.nav-tas ul li .info a.tentruyen{
+  color: #000;
+}
+.nav-tas ul li:hover .info a.tentruyen{
+  color: #971928;
+}
+.nav-tas ul li .info p{
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
